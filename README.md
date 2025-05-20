@@ -1,12 +1,12 @@
 # SAPUNet: A Spatially-Aware Parametric UMAP Network for Interpretable Mineral Prediction and Geological Insight in the Duolong Mineral District
 
 **Authors:**  
-Yixiao Wu<sup>1</sup>, Wenlei Wang<sup>2</sup>, Changjiang Yuan<sup>1</sup>  
+Yixiao Wu, Wenlei Wang, Changjiang Yuan  
 📧 Contact: [wuyixiao129@outlook.com](mailto:wuyixiao129@outlook.com)  
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 **SAPUNet** is a spatially-aware deep learning framework designed for interpretable mineral prospectivity prediction. It integrates a **parametric UMAP encoder** with a supervised classifier and incorporates **spatial smoothness** and **geological structure preservation** mechanisms. This repository presents the full implementation, as applied to geochemical data in the **Duolong mineral district**, enabling insight into mineralization patterns and model-based geological interpretation.
 
@@ -38,7 +38,7 @@ SAPUNet/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Install dependencies**:
 
@@ -48,8 +48,8 @@ pip install -r requirements.txt
 
 2. **Prepare your data**:
 
-Place your CSV dataset (e.g., `最新0517标记3.csv`) in the `data/` folder. Make sure it includes:
-- `label` column: known classes (0–3) or NaN for unknowns
+Place your CSV dataset file in the `data/` folder. Make sure it includes:
+- `label` column: known classes or NaN for unknowns
 - `xx`, `yy` columns: spatial coordinates
 - `Location` column (optional): for named highlighting
 
@@ -68,7 +68,7 @@ This will:
 
 ---
 
-## 🖼️ Output Files (in `outputs_geo/`)
+##  Output Files (in `outputs_geo/`)
 
 | File                                | Description                                      |
 |-------------------------------------|--------------------------------------------------|
@@ -83,7 +83,7 @@ This will:
 ---
 
 
-## 📬 Contact
+## Contact
 
 For questions, collaborations, or feedback, please reach out to:
 
